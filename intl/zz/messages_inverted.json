@@ -1,0 +1,1205 @@
+{
+  "Gruntfile.js": {
+    "11": [
+      "grunt-mocha-test"
+    ],
+    "16": [
+      "package.json"
+    ],
+    "215": [
+      "grunt-browserify"
+    ],
+    "216": [
+      "grunt-contrib-uglify"
+    ],
+    "217": [
+      "grunt-eslint"
+    ],
+    "218": [
+      "grunt-contrib-watch"
+    ],
+    "219": [
+      "grunt-karma"
+    ],
+    "221": [
+      "e2e-server"
+    ],
+    "230": [
+      "e2e"
+    ],
+    "233": [
+      "default"
+    ],
+    "235": [
+      "test"
+    ],
+    "241": [
+      "mocha-and-karma"
+    ]
+  },
+  "browser/current-context.js": {
+    "17": [
+      "3b46d3a780fd6ae5f95ade489a0efffe"
+    ]
+  },
+  "common/models/access-token.js": {
+    "76": [
+      "before save"
+    ],
+    "118": [
+      "7e0fca41d098607e1c9aa353c67e0fa1"
+    ],
+    "204": [
+      "Bearer "
+    ],
+    "208": [
+      "utf8"
+    ]
+  },
+  "common/models/application.js": {
+    "89": [
+      "before save"
+    ],
+    "100": [
+      "id"
+    ],
+    "102": [
+      "client"
+    ],
+    "103": [
+      "javaScript"
+    ],
+    "104": [
+      "restApi"
+    ],
+    "105": [
+      "windows"
+    ],
+    "106": [
+      "master"
+    ],
+    "145": [
+      "client"
+    ],
+    "146": [
+      "javaScript"
+    ],
+    "147": [
+      "restApi"
+    ],
+    "148": [
+      "windows"
+    ],
+    "149": [
+      "master"
+    ]
+  },
+  "common/models/acl.js": {
+    "255": [
+      "The following ACLs were searched: "
+    ],
+    "258": [
+      "with score:"
+    ],
+    "349": [
+      "Permission denied by statically resolved permission"
+    ],
+    "350": [
+      " Resolved Permission: %j"
+    ],
+    "377": [
+      "---ACL---"
+    ],
+    "378": [
+      "model %s"
+    ],
+    "379": [
+      "property %s"
+    ],
+    "380": [
+      "principalType %s"
+    ],
+    "381": [
+      "principalId %s"
+    ],
+    "382": [
+      "accessType %s"
+    ],
+    "383": [
+      "permission %s"
+    ],
+    "473": [
+      "---Resolved---"
+    ],
+    "543": [
+      "fd25292a3d3c86f0ae63458b7db6e79b"
+    ],
+    "566": [
+      "ROLE"
+    ]
+  },
+  "lib/access-context.js": {
+    "163": [
+      "---AccessContext---"
+    ],
+    "165": [
+      "principals:"
+    ],
+    "167": [
+      "principal: %j"
+    ],
+    "170": [
+      "principals: %j"
+    ],
+    "172": [
+      "modelName %s"
+    ],
+    "173": [
+      "modelId %s"
+    ],
+    "174": [
+      "property %s"
+    ],
+    "175": [
+      "method %s"
+    ],
+    "176": [
+      "accessType %s"
+    ],
+    "178": [
+      "accessToken:"
+    ],
+    "179": [
+      "  id %j"
+    ],
+    "180": [
+      "  ttl %j"
+    ],
+    "182": [
+      "getUserId() %s"
+    ],
+    "183": [
+      "isAuthenticated() %s"
+    ],
+    "295": [
+      "---AccessRequest---"
+    ],
+    "296": [
+      " model %s"
+    ],
+    "297": [
+      " property %s"
+    ],
+    "298": [
+      " accessType %s"
+    ],
+    "299": [
+      " permission %s"
+    ],
+    "300": [
+      " isWildcard() %s"
+    ],
+    "301": [
+      " isAllowed() %s"
+    ]
+  },
+  "lib/model.js": {
+    "107": [
+      "Model"
+    ],
+    "175": [
+      "9442a303f4c26de8e29e39430f03d63a"
+    ],
+    "182": [
+      "ec296bb6191b3eb43570e250ab4ba919"
+    ],
+    "232": [
+      "attached"
+    ],
+    "284": [
+      "ACL"
+    ],
+    "302": [
+      "AccessToken"
+    ],
+    "454": [
+      "__get__"
+    ],
+    "467": [
+      "fk"
+    ],
+    "468": [
+      "855ecd4a64885ba272d782435f72a4d4"
+    ],
+    "479": [
+      "__get__"
+    ],
+    "483": [
+      "830cb6c862f8f364e9064cea0026f701"
+    ],
+    "489": [
+      "__create__"
+    ],
+    "493": [
+      "d6f43b266533b04d442bdb3955622592"
+    ],
+    "498": [
+      "__update__"
+    ],
+    "502": [
+      "528325f3cbf1b0ab9a08447515daac9a"
+    ],
+    "507": [
+      "__destroy__"
+    ],
+    "510": [
+      "f66ae3cf379b2fce28575a3282defe1a"
+    ],
+    "520": [
+      "__findById__"
+    ],
+    "524": [
+      "7c837b88fd0e509bd3fc722d7ddf0711"
+    ],
+    "527": [
+      "651f0b3cbba001635152ec3d3d954d0a"
+    ],
+    "534": [
+      "__destroyById__"
+    ],
+    "538": [
+      "7c837b88fd0e509bd3fc722d7ddf0711"
+    ],
+    "541": [
+      "0da38687fed24275c1547e815914a8e3"
+    ],
+    "547": [
+      "__updateById__"
+    ],
+    "552": [
+      "7c837b88fd0e509bd3fc722d7ddf0711"
+    ],
+    "557": [
+      "22fe62fa8d595b72c62208beddaa2a56"
+    ],
+    "572": [
+      "__link__"
+    ],
+    "576": [
+      "7c837b88fd0e509bd3fc722d7ddf0711"
+    ],
+    "579": [
+      "86254879d01a60826a851066987703f2"
+    ],
+    "585": [
+      "__unlink__"
+    ],
+    "589": [
+      "7c837b88fd0e509bd3fc722d7ddf0711"
+    ],
+    "592": [
+      "5a36cc6ba0cc27c754f6c5ed6015ea3c"
+    ],
+    "600": [
+      "__exists__"
+    ],
+    "604": [
+      "7c837b88fd0e509bd3fc722d7ddf0711"
+    ],
+    "607": [
+      "598ff0255ffd1d1b71e8de55dbe2c034"
+    ],
+    "615": [
+      "id"
+    ],
+    "616": [
+      "855ecd4a64885ba272d782435f72a4d4"
+    ],
+    "646": [
+      "__get__"
+    ],
+    "650": [
+      "7bc7b301ad9c4fc873029d57fb9740fe"
+    ],
+    "655": [
+      "__create__"
+    ],
+    "659": [
+      "d6f43b266533b04d442bdb3955622592"
+    ],
+    "664": [
+      "__delete__"
+    ],
+    "667": [
+      "c0057a569ff9d3b509bac61a4b2f605d"
+    ],
+    "671": [
+      "__count__"
+    ],
+    "675": [
+      "da13d3cdf21330557254670dddd8c5c7"
+    ],
+    "722": [
+      "543d19bad5e47ee1e9eb8af688e857b4"
+    ],
+    "752": [
+      "8ae418c605b6a45f2651be9b1677c180"
+    ],
+    "757": [
+      "8ae418c605b6a45f2651be9b1677c180"
+    ],
+    "821": [
+      "mounted"
+    ],
+    "849": [
+      "61e5deebaf44d68f4e6a508f30cc31a3"
+    ]
+  },
+  "lib/persisted-model.js": {
+    "23": [
+      "Model"
+    ],
+    "41": [
+      "PersistedModel"
+    ],
+    "56": [
+      "dataSourceAttached"
+    ],
+    "72": [
+      "1d5535b11bdcd47a32d584fc99cad07d"
+    ],
+    "89": [
+      "id"
+    ],
+    "90": [
+      "855ecd4a64885ba272d782435f72a4d4"
+    ],
+    "429": [
+      "save"
+    ],
+    "430": [
+      "update"
+    ],
+    "616": [
+      "15254dec061d023d6c030083a0cef50f"
+    ],
+    "626": [
+      "cf64c7afc74d3a8120abcd028f98c770"
+    ],
+    "636": [
+      "e43e320a435ec1fa07648c1da0d558a7"
+    ],
+    "653": [
+      "id"
+    ],
+    "667": [
+      "2e406dbfed4c5eaeff9d3daaa366c69e"
+    ],
+    "673": [
+      "c46d4aba1f14809c16730faa46933495"
+    ],
+    "681": [
+      "2a9684b3d5b3b67af74bac74eb1b0843"
+    ],
+    "690": [
+      "a98b6cc6547706b5c6bffde0ed5fd55c"
+    ],
+    "700": [
+      "16a11368d55b85a209fc6aea69ee5f7a"
+    ],
+    "715": [
+      "f04c62976db4b2b6c8bf907087b53996"
+    ],
+    "721": [
+      "55ddedd4c501348f82cb89db02ec85c1"
+    ],
+    "725": [
+      "6329e0ac1de3c250ebb1df5afd5a2a7b"
+    ],
+    "734": [
+      "d32cbcec1c7022d9a975699865ff6036"
+    ],
+    "743": [
+      "f37d94653793e33f4203e45b4a1cf106"
+    ],
+    "751": [
+      "5aaa76c72ae1689fd3cf62589784a4ba"
+    ],
+    "761": [
+      "0f1c71f74b040bfbe8d384a414e31f03"
+    ],
+    "773": [
+      "2e50838caf0c927735eb15d12866bdd7"
+    ],
+    "787": [
+      "c65600640f206f585d300b4bcb699d95"
+    ],
+    "798": [
+      "1bc7d8283c9abda512692925c8d8e3c0"
+    ],
+    "805": [
+      "7f2fde7f0f860ead224b11ba8d75aa1c"
+    ],
+    "816": [
+      "1bc1d489ddf347af47af3d9b1fc7cc15"
+    ],
+    "823": [
+      "2a7df74fe6e8462e617b79d5fbb536ea"
+    ],
+    "835": [
+      "976df81f3da8bc72d90f5dbaf845f47f"
+    ],
+    "836": [
+      "4eb47c86b35a88ac2308a265f4c8e9a8"
+    ],
+    "846": [
+      "51ea9b6245bb5e672b236d640ca3b048"
+    ],
+    "858": [
+      "5efcd638779497cbb9d8f6ead8eb0629"
+    ],
+    "864": [
+      "87f4ffec0db97baa672cbb2348afc5a1"
+    ],
+    "873": [
+      "dcb6261868ff0a7b928aa215b07d068c"
+    ],
+    "1024": [
+      "replicating %s since %s to %s since %s"
+    ],
+    "1030": [
+      "\twith filter %j"
+    ],
+    "1051": [
+      "\titeration #%s"
+    ],
+    "1093": [
+      "\tusing source changes"
+    ],
+    "1094": [
+      "\t\t%j"
+    ],
+    "1105": [
+      "\tdiff conflicts"
+    ],
+    "1106": [
+      "\t\t%j"
+    ],
+    "1109": [
+      "\tdiff deltas"
+    ],
+    "1110": [
+      "\t\t%j"
+    ],
+    "1120": [
+      "\tbuilding a list of updates"
+    ],
+    "1129": [
+      "\tstarting bulk update"
+    ],
+    "1155": [
+      "\tcreated checkpoints"
+    ],
+    "1156": [
+      "\t\t%s for source model %s"
+    ],
+    "1157": [
+      "\t\t%s for target model %s"
+    ],
+    "1166": [
+      "\treplication finished"
+    ],
+    "1167": [
+      "\t\t%s conflict(s) detected"
+    ],
+    "1168": [
+      "\t\t%s change(s) applied"
+    ],
+    "1169": [
+      "\t\tnew checkpoints: { source: %j, target: %j }"
+    ],
+    "1179": [
+      "conflicts"
+    ],
+    "1215": [
+      "6bc376432cd9972cf991aad3de371e78"
+    ],
+    "1283": [
+      "f1d4ac54357cc0932f385d56814ba7e4"
+    ],
+    "1313": [
+      "Detected non-rectified change of %s %j"
+    ],
+    "1315": [
+      "\tExpected revision: %s"
+    ],
+    "1316": [
+      "\tActual revision:   %s"
+    ],
+    "1336": [
+      "UpdateAll detected non-rectified change of %s %j"
+    ],
+    "1347": [
+      "62e8b0a733417978bab22c8dacf5d7e6"
+    ],
+    "1352": [
+      "%s.updateAll modified unexpected number of instances: %j"
+    ],
+    "1355": [
+      "8bab6720ecc58ec6412358c858a53484"
+    ],
+    "1381": [
+      "Detected non-rectified new instance of %s %j"
+    ],
+    "1400": [
+      "Detected non-rectified change of %s %j"
+    ],
+    "1402": [
+      "\tExpected revision: %s"
+    ],
+    "1403": [
+      "\tActual revision:   %s"
+    ],
+    "1418": [
+      "DeleteAll detected non-rectified change of %s %j"
+    ],
+    "1429": [
+      "ea63d226b6968e328bdf6876010786b5"
+    ],
+    "1434": [
+      "%s.deleteAll modified unexpected number of instances: %j"
+    ],
+    "1437": [
+      "e92aa25b6b864e3454b65a7c422bd114"
+    ],
+    "1496": [
+      " is tracking changes, ",
+      "The model "
+    ],
+    "1497": [
+      "which requries a string id with GUID/UUID default value."
+    ],
+    "1500": [
+      "after save"
+    ],
+    "1502": [
+      "after delete"
+    ],
+    "1527": [
+      "rectifyOnSave %s -> "
+    ],
+    "1529": [
+      "context instance:%j currentInstance:%j where:%j data %j"
+    ],
+    "1552": [
+      "rectifyOnDelete %s -> "
+    ],
+    "1554": [
+      "context instance:%j where:%j"
+    ],
+    "1584": [
+      "Change"
+    ],
+    "1588": [
+      "-change"
+    ],
+    "1652": [
+      "03f79fa268fe199de2ce4345515431c1"
+    ],
+    "1684": [
+      "error"
+    ],
+    "1685": [
+      "end"
+    ],
+    "1690": [
+      "error"
+    ],
+    "1693": [
+      "end"
+    ],
+    "1701": [
+      "after save",
+      "save"
+    ],
+    "1702": [
+      "after delete",
+      "delete"
+    ]
+  },
+  "common/models/change.js": {
+    "117": [
+      "c2b5d51f007178170ca3952d59640ca4"
+    ],
+    "166": [
+      "creating change"
+    ],
+    "185": [
+      "rectify change"
+    ],
+    "194": [
+      "rev and prev are equal (not updating anything)"
+    ],
+    "213": [
+      "ASSERTION FAILED: Change currentRev==rev "
+    ],
+    "214": [
+      "should have been already handled"
+    ],
+    "218": [
+      "updated revision (was "
+    ],
+    "222": [
+      "updated prev"
+    ],
+    "227": [
+      "updated revision (was "
+    ],
+    "233": [
+      "ERROR - could not determing prev"
+    ],
+    "236": [
+      "updated prev"
+    ],
+    "241": [
+      "update checkpoint to"
+    ],
+    "443": [
+      "remote conflict"
+    ],
+    "444": [
+      "local conflict"
+    ],
+    "447": [
+      "remote delta"
+    ],
+    "484": [
+      "rectify all"
+    ],
+    "506": [
+      "checkpoint"
+    ],
+    "519": [
+      "\tid"
+    ],
+    "520": [
+      "\trev"
+    ],
+    "521": [
+      "\tprev"
+    ],
+    "522": [
+      "\tcheckpoint"
+    ],
+    "523": [
+      "\tmodelName"
+    ],
+    "524": [
+      "\tmodelId"
+    ],
+    "525": [
+      "\ttype"
+    ]
+  },
+  "common/models/email.js": {
+    "50": [
+      "b2aa64e3b5aa234388d0b457f3ba995a"
+    ],
+    "57": [
+      "b2aa64e3b5aa234388d0b457f3ba995a"
+    ]
+  },
+  "common/models/role.js": {
+    "45": [
+      "dataSourceAttached"
+    ],
+    "183": [
+      "isOwner(): %s %s userId: %s"
+    ],
+    "202": [
+      "Model not found for id %j"
+    ],
+    "206": [
+      "Model found: %j"
+    ],
+    "217": [
+      "Checking relation %s to %s: %j"
+    ],
+    "222": [
+      "No matching belongsTo relation found for model %j and user: %j"
+    ],
+    "228": [
+      "User found: %j"
+    ],
+    "290": [
+      "isInRole(): %s"
+    ],
+    "295": [
+      "Custom resolver found for role %s"
+    ],
+    "308": [
+      "isInRole() returns: false"
+    ],
+    "324": [
+      "isInRole() returns: %j"
+    ],
+    "341": [
+      "Role found: %j"
+    ],
+    "358": [
+      "Role mapping found: %j"
+    ],
+    "367": [
+      "isInRole() returns: %j"
+    ],
+    "401": [
+      "In role %j: %j"
+    ],
+    "433": [
+      "Role mappings found: %s %j"
+    ],
+    "448": [
+      "getRoles() returns: %j %j"
+    ],
+    "453": [
+      "name"
+    ]
+  },
+  "common/models/user.js": {
+    "209": [
+      "ad24a933c0351aa6fc39c8f1431b0ee4"
+    ],
+    "216": [
+      "39f25db6c2d9cb0c11d9c46ef6bd3402"
+    ],
+    "224": [
+      "5e81ad3847a290dc650b47618b9cbc7e"
+    ],
+    "230": [
+      "user"
+    ],
+    "243": [
+      "An error is reported from User.findOne: %j"
+    ],
+    "248": [
+      "An error is reported from User.hasPassword: %j"
+    ],
+    "253": [
+      "User email has not been verified"
+    ],
+    "254": [
+      "3aae63bb7e8e046641767571c1591441"
+    ],
+    "266": [
+      "The password is invalid for user %s"
+    ],
+    "271": [
+      "No matching record is found for user %s"
+    ],
+    "301": [
+      "a9ce058e495aba6f1aa3e041bfc1035b"
+    ],
+    "388": [
+      "host"
+    ],
+    "389": [
+      "port"
+    ],
+    "390": [
+      "restApiRoot"
+    ],
+    "404": [
+      "confirm"
+    ],
+    "474": [
+      "hex"
+    ],
+    "506": [
+      "3caaa84fc103d6d5612173ae6d43b245"
+    ],
+    "510": [
+      "a50d10fc6e0959b220e085454c40381e"
+    ],
+    "539": [
+      "0caffe1d763c8cca6a61814abe33b776"
+    ],
+    "551": [
+      "44a6c8b1ded4ed653d19ddeaaf89a606"
+    ],
+    "563": [
+      "resetPasswordRequest"
+    ],
+    "587": [
+      "f58cdc481540cd1f69a4aa4da2e37981"
+    ],
+    "617": [
+      "$2a$"
+    ],
+    "627": [
+      "access"
+    ],
+    "635": [
+      "create"
+    ],
+    "644": [
+      "login"
+    ],
+    "646": [
+      "83cfabbe3aa84ce52e0f5ed7c3b2e9b3"
+    ],
+    "650": [
+      "2362ba55796c733e337af169922327a2"
+    ],
+    "656": [
+      "e548b75f1a55b7140341b50a30711307"
+    ],
+    "666": [
+      "logout"
+    ],
+    "668": [
+      "8608c28f5e6df0008266e3c497836176"
+    ],
+    "676": [
+      "430b6326d7ebf6600a39f614ef516bc8"
+    ],
+    "685": [
+      "confirm"
+    ],
+    "687": [
+      "42e3fa18945255412ebc6561e2c6f1dc"
+    ],
+    "698": [
+      "resetPassword"
+    ],
+    "700": [
+      "306999d39387d87b2638199ff0bed8ad"
+    ],
+    "708": [
+      "confirm"
+    ],
+    "711": [
+      "860d1a0b8bd340411fb32baa72867989"
+    ],
+    "729": [
+      "c68a93f0a9524fed4ff64372fc90c55f",
+      "email"
+    ],
+    "733": [
+      "email"
+    ],
+    "734": [
+      "username"
+    ]
+  },
+  "example/context/app.js": {
+    "19": [
+      "host"
+    ],
+    "25": [
+      "color"
+    ],
+    "26": [
+      "**"
+    ],
+    "29": [
+      "host",
+      "f687e565ffae5b1a6171c78e59e3dd49"
+    ],
+    "33": [
+      "db"
+    ],
+    "37": [
+      "29c747de0ac234fd927a30f3e6a34160"
+    ]
+  },
+  "lib/application.js": {
+    "144": [
+      "Model"
+    ],
+    "165": [
+      "remoteMethodDisabled"
+    ],
+    "166": [
+      "remoteMethodDisabled"
+    ],
+    "171": [
+      "attached"
+    ],
+    "243": [
+      "57b87ae0e65f6ab7a2e3e6cbdfca49a4"
+    ],
+    "300": [
+      "mounted"
+    ],
+    "328": [
+      "04bd8af876f001ceaf443aad6a9002f9"
+    ],
+    "363": [
+      "aclErrorStatus"
+    ],
+    "383": [
+      "095afbf2f1f0e5be678f5dac5c54e717"
+    ],
+    "387": [
+      "dac512e197af51441fa0eca90431ee29"
+    ],
+    "391": [
+      "7e287fc885d9fdcf42da3a12f38572c1"
+    ],
+    "413": [
+      "9df34751f31f9fd16f291ca9b1acd21d"
+    ],
+    "441": [
+      "Model"
+    ],
+    "470": [
+      "remoting"
+    ],
+    "491": [
+      "316e5b82c203cf3de31a449ee07d0650"
+    ],
+    "546": [
+      "listening"
+    ],
+    "547": [
+      "port"
+    ],
+    "550": [
+      "host"
+    ],
+    "554": [
+      "host"
+    ],
+    "559": [
+      "url"
+    ],
+    "566": [
+      "port"
+    ],
+    "567": [
+      "url"
+    ]
+  },
+  "example/client-server/client.js": {
+    "23": [
+      "b3ebc57e196a4e1f0076a284b85879db"
+    ]
+  },
+  "example/client-server/models.js": {
+    "8": [
+      "CartItem"
+    ],
+    "30": [
+      "sum"
+    ]
+  },
+  "example/colors/app.js": {
+    "19": [
+      "color"
+    ],
+    "21": [
+      "db"
+    ],
+    "29": [
+      "e282e0e36e9f10a77c23a91e1fc70122"
+    ]
+  },
+  "example/simple-data-source/app.js": {
+    "16": [
+      "db"
+    ],
+    "18": [
+      "color"
+    ],
+    "32": [
+      "e282e0e36e9f10a77c23a91e1fc70122"
+    ]
+  },
+  "example/replication/app.js": {
+    "8": [
+      "db"
+    ],
+    "9": [
+      "color"
+    ],
+    "10": [
+      "color2"
+    ],
+    "129": [
+      " -"
+    ]
+  },
+  "example/mobile-models/app.js": {
+    "17": [
+      "db"
+    ],
+    "44": [
+      "727d7a28a5b49fc4d9b57a591700f9a8"
+    ],
+    "48": [
+      "7d5e7ed0efaedf3f55f380caae0df8b8",
+      "rfeng"
+    ]
+  },
+  "lib/registry.js": {
+    "118": [
+      "554aa06e92e4722d48ce614618b90c2f"
+    ],
+    "192": [
+      "3438fab56cc7ab92dfd88f0497e523e0"
+    ],
+    "203": [
+      "779467f467862836e19f494a37d6ab77"
+    ],
+    "220": [
+      "83cbdc2560ba9f09155ccfc63e08f1a1"
+    ],
+    "225": [
+      "734a7bebb65e10899935126ba63dd51f"
+    ],
+    "236": [
+      "Attached model `%s` to dataSource `%s`"
+    ],
+    "239": [
+      "Model `%s` is not attached to any DataSource by configuration."
+    ],
+    "242": [
+      "Model `%s` is not attached to any DataSource, possibly by a mistake."
+    ],
+    "244": [
+      "7bc61dadccf417e30b02179665a7ba11"
+    ],
+    "257": [
+      "dc568bee32deb0f6eaf63e73b20e8ceb"
+    ],
+    "271": [
+      "5a66ddbf867d065d0637c3dbc40736a0"
+    ],
+    "275": [
+      "b8729412816c4d96f33b7992db3298d7"
+    ],
+    "308": [
+      "80a32e80cbed65eba2103201a7c94710"
+    ],
+    "360": [
+      "db"
+    ],
+    "374": [
+      "e7e4af32e979cddc901463fc7b362567"
+    ]
+  },
+  "lib/loopback.js": {
+    "53": [
+      "Model"
+    ],
+    "56": [
+      "PersistedModel"
+    ],
+    "94": [
+      "memory"
+    ],
+    "95": [
+      "remote"
+    ]
+  },
+  "server/middleware/rest.js": {
+    "43": [
+      "legacyExplorer"
+    ],
+    "45": [
+      "1162caf5a6b2e991f443670d1ea46bde"
+    ],
+    "49": [
+      "rest"
+    ],
+    "57": [
+      "remoting"
+    ],
+    "68": [
+      "AccessToken"
+    ],
+    "74": [
+      "rest"
+    ]
+  },
+  "lib/connectors/base-connector.js": {
+    "33": [
+      "created with options"
+    ]
+  },
+  "lib/connectors/mail.js": {
+    "155": [
+      "4a4f04a4e480fc5d4ee73b84d9a4b904"
+    ],
+    "157": [
+      "c7c413148c9d58201be31be156014eb9"
+    ],
+    "159": [
+      "f11a36a110d13d0dd7767c217e6e352d"
+    ],
+    "160": [
+      "7671faeb3d0cfb658cb88a68878ab648"
+    ],
+    "161": [
+      "f4c33c6450be6aa184f2afbbcf30a301"
+    ],
+    "162": [
+      "427ae75d34d469a94385e4f5ee80dee9"
+    ],
+    "163": [
+      "b8bedf95181d9f9b0e2904dfbc0a08bf"
+    ],
+    "171": [
+      "3d63008ccfb2af1db2142e8cc2716ace"
+    ]
+  },
+  "server/middleware/token.js": {
+    "28": [
+      "(/|$|\\?)"
+    ],
+    "31": [
+      "req.url has been rewritten from %s to %s"
+    ],
+    "83": [
+      "Set currentUserLiteral to 'me' as the value is not a string."
+    ],
+    "102": [
+      "AccessToken"
+    ],
+    "128": [
+      "accessToken"
+    ]
+  },
+  "lib/server-app.js": {
+    "84": [
+      "ALL"
+    ],
+    "150": [
+      "routes"
+    ],
+    "195": [
+      "cb6b65cca90372e428100fd21f8b2259"
+    ],
+    "197": [
+      "use %s %s %s"
+    ],
+    "207": [
+      "No matching layer is found for %s %s"
+    ]
+  },
+  "server/current-context.js": {
+    "45": [
+      "loopback"
+    ]
+  },
+  "server/middleware/context.js": {
+    "52": [
+      "http"
+    ]
+  },
+  "server/middleware/url-not-found.js": {
+    "20": [
+      "Cannot "
+    ]
+  }
+}

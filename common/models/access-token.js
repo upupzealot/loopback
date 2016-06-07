@@ -7,6 +7,10 @@
  * Module Dependencies.
  */
 
+var path = require('path');
+var SG = require('strong-globalize');
+var g = SG();
+
 var loopback = require('../../lib/loopback');
 var assert = require('assert');
 var uid = require('uid2');
@@ -111,7 +115,7 @@ module.exports = function(AccessToken) {
             } else if (isValid) {
               cb(null, token);
             } else {
-              var e = new Error('Invalid Access Token');
+              var e = new Error(g.f('Invalid Access Token'));
               e.status = e.statusCode = 401;
               e.code = 'INVALID_TOKEN';
               cb(e);

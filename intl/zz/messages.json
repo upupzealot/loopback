@@ -1,0 +1,1019 @@
+{
+  "default": [
+    "Gruntfile.js:233"
+  ],
+  "e2e": [
+    "Gruntfile.js:230"
+  ],
+  "e2e-server": [
+    "Gruntfile.js:221"
+  ],
+  "grunt-browserify": [
+    "Gruntfile.js:215"
+  ],
+  "grunt-contrib-uglify": [
+    "Gruntfile.js:216"
+  ],
+  "grunt-contrib-watch": [
+    "Gruntfile.js:218"
+  ],
+  "grunt-eslint": [
+    "Gruntfile.js:217"
+  ],
+  "grunt-karma": [
+    "Gruntfile.js:219"
+  ],
+  "grunt-mocha-test": [
+    "Gruntfile.js:11"
+  ],
+  "mocha-and-karma": [
+    "Gruntfile.js:241"
+  ],
+  "package.json": [
+    "Gruntfile.js:16"
+  ],
+  "test": [
+    "Gruntfile.js:235"
+  ],
+  "3b46d3a780fd6ae5f95ade489a0efffe": [
+    "browser/current-context.js:17"
+  ],
+  "7e0fca41d098607e1c9aa353c67e0fa1": [
+    "common/models/access-token.js:118"
+  ],
+  "Bearer ": [
+    "common/models/access-token.js:204"
+  ],
+  "before save": [
+    "common/models/access-token.js:76",
+    "common/models/application.js:89"
+  ],
+  "utf8": [
+    "common/models/access-token.js:208"
+  ],
+  "fd25292a3d3c86f0ae63458b7db6e79b": [
+    "common/models/acl.js:543"
+  ],
+  " Resolved Permission: %j": [
+    "common/models/acl.js:350"
+  ],
+  "---ACL---": [
+    "common/models/acl.js:377"
+  ],
+  "---Resolved---": [
+    "common/models/acl.js:473"
+  ],
+  "Permission denied by statically resolved permission": [
+    "common/models/acl.js:349"
+  ],
+  "ROLE": [
+    "common/models/acl.js:566"
+  ],
+  "The following ACLs were searched: ": [
+    "common/models/acl.js:255"
+  ],
+  "accessType %s": [
+    "common/models/acl.js:382",
+    "lib/access-context.js:176"
+  ],
+  "model %s": [
+    "common/models/acl.js:378"
+  ],
+  "permission %s": [
+    "common/models/acl.js:383"
+  ],
+  "principalId %s": [
+    "common/models/acl.js:381"
+  ],
+  "principalType %s": [
+    "common/models/acl.js:380"
+  ],
+  "property %s": [
+    "common/models/acl.js:379",
+    "lib/access-context.js:174"
+  ],
+  "with score:": [
+    "common/models/acl.js:258"
+  ],
+  "client": [
+    "common/models/application.js:102",
+    "common/models/application.js:145"
+  ],
+  "id": [
+    "common/models/application.js:100",
+    "lib/model.js:615",
+    "lib/persisted-model.js:89",
+    "lib/persisted-model.js:653"
+  ],
+  "javaScript": [
+    "common/models/application.js:103",
+    "common/models/application.js:146"
+  ],
+  "master": [
+    "common/models/application.js:106",
+    "common/models/application.js:149"
+  ],
+  "restApi": [
+    "common/models/application.js:104",
+    "common/models/application.js:147"
+  ],
+  "windows": [
+    "common/models/application.js:105",
+    "common/models/application.js:148"
+  ],
+  "c2b5d51f007178170ca3952d59640ca4": [
+    "common/models/change.js:117"
+  ],
+  "\tcheckpoint": [
+    "common/models/change.js:522"
+  ],
+  "\tid": [
+    "common/models/change.js:519"
+  ],
+  "\tmodelId": [
+    "common/models/change.js:524"
+  ],
+  "\tmodelName": [
+    "common/models/change.js:523"
+  ],
+  "\tprev": [
+    "common/models/change.js:521"
+  ],
+  "\trev": [
+    "common/models/change.js:520"
+  ],
+  "\ttype": [
+    "common/models/change.js:525"
+  ],
+  "ASSERTION FAILED: Change currentRev==rev ": [
+    "common/models/change.js:213"
+  ],
+  "ERROR - could not determing prev": [
+    "common/models/change.js:233"
+  ],
+  "checkpoint": [
+    "common/models/change.js:506"
+  ],
+  "creating change": [
+    "common/models/change.js:166"
+  ],
+  "local conflict": [
+    "common/models/change.js:444"
+  ],
+  "rectify all": [
+    "common/models/change.js:484"
+  ],
+  "rectify change": [
+    "common/models/change.js:185"
+  ],
+  "remote conflict": [
+    "common/models/change.js:443"
+  ],
+  "remote delta": [
+    "common/models/change.js:447"
+  ],
+  "rev and prev are equal (not updating anything)": [
+    "common/models/change.js:194"
+  ],
+  "should have been already handled": [
+    "common/models/change.js:214"
+  ],
+  "update checkpoint to": [
+    "common/models/change.js:241"
+  ],
+  "updated prev": [
+    "common/models/change.js:222",
+    "common/models/change.js:236"
+  ],
+  "updated revision (was ": [
+    "common/models/change.js:218",
+    "common/models/change.js:227"
+  ],
+  "b2aa64e3b5aa234388d0b457f3ba995a": [
+    "common/models/email.js:50",
+    "common/models/email.js:57"
+  ],
+  "Checking relation %s to %s: %j": [
+    "common/models/role.js:217"
+  ],
+  "Custom resolver found for role %s": [
+    "common/models/role.js:295"
+  ],
+  "In role %j: %j": [
+    "common/models/role.js:401"
+  ],
+  "Model found: %j": [
+    "common/models/role.js:206"
+  ],
+  "Model not found for id %j": [
+    "common/models/role.js:202"
+  ],
+  "No matching belongsTo relation found for model %j and user: %j": [
+    "common/models/role.js:222"
+  ],
+  "Role found: %j": [
+    "common/models/role.js:341"
+  ],
+  "Role mapping found: %j": [
+    "common/models/role.js:358"
+  ],
+  "Role mappings found: %s %j": [
+    "common/models/role.js:433"
+  ],
+  "User found: %j": [
+    "common/models/role.js:228"
+  ],
+  "dataSourceAttached": [
+    "common/models/role.js:45",
+    "lib/persisted-model.js:56"
+  ],
+  "getRoles() returns: %j %j": [
+    "common/models/role.js:448"
+  ],
+  "isInRole() returns: %j": [
+    "common/models/role.js:324",
+    "common/models/role.js:367"
+  ],
+  "isInRole() returns: false": [
+    "common/models/role.js:308"
+  ],
+  "isInRole(): %s": [
+    "common/models/role.js:290"
+  ],
+  "isOwner(): %s %s userId: %s": [
+    "common/models/role.js:183"
+  ],
+  "name": [
+    "common/models/role.js:453"
+  ],
+  "0caffe1d763c8cca6a61814abe33b776": [
+    "common/models/user.js:539"
+  ],
+  "2362ba55796c733e337af169922327a2": [
+    "common/models/user.js:650"
+  ],
+  "306999d39387d87b2638199ff0bed8ad": [
+    "common/models/user.js:700"
+  ],
+  "39f25db6c2d9cb0c11d9c46ef6bd3402": [
+    "common/models/user.js:216"
+  ],
+  "3aae63bb7e8e046641767571c1591441": [
+    "common/models/user.js:254"
+  ],
+  "3caaa84fc103d6d5612173ae6d43b245": [
+    "common/models/user.js:506"
+  ],
+  "42e3fa18945255412ebc6561e2c6f1dc": [
+    "common/models/user.js:687"
+  ],
+  "430b6326d7ebf6600a39f614ef516bc8": [
+    "common/models/user.js:676"
+  ],
+  "44a6c8b1ded4ed653d19ddeaaf89a606": [
+    "common/models/user.js:551"
+  ],
+  "5e81ad3847a290dc650b47618b9cbc7e": [
+    "common/models/user.js:224"
+  ],
+  "83cfabbe3aa84ce52e0f5ed7c3b2e9b3": [
+    "common/models/user.js:646"
+  ],
+  "8608c28f5e6df0008266e3c497836176": [
+    "common/models/user.js:668"
+  ],
+  "860d1a0b8bd340411fb32baa72867989": [
+    "common/models/user.js:711"
+  ],
+  "a50d10fc6e0959b220e085454c40381e": [
+    "common/models/user.js:510"
+  ],
+  "a9ce058e495aba6f1aa3e041bfc1035b": [
+    "common/models/user.js:301"
+  ],
+  "ad24a933c0351aa6fc39c8f1431b0ee4": [
+    "common/models/user.js:209"
+  ],
+  "c68a93f0a9524fed4ff64372fc90c55f": [
+    "common/models/user.js:729"
+  ],
+  "e548b75f1a55b7140341b50a30711307": [
+    "common/models/user.js:656"
+  ],
+  "f58cdc481540cd1f69a4aa4da2e37981": [
+    "common/models/user.js:587"
+  ],
+  "$2a$": [
+    "common/models/user.js:617"
+  ],
+  "An error is reported from User.findOne: %j": [
+    "common/models/user.js:243"
+  ],
+  "An error is reported from User.hasPassword: %j": [
+    "common/models/user.js:248"
+  ],
+  "No matching record is found for user %s": [
+    "common/models/user.js:271"
+  ],
+  "The password is invalid for user %s": [
+    "common/models/user.js:266"
+  ],
+  "User email has not been verified": [
+    "common/models/user.js:253"
+  ],
+  "access": [
+    "common/models/user.js:627"
+  ],
+  "confirm": [
+    "common/models/user.js:404",
+    "common/models/user.js:685",
+    "common/models/user.js:708"
+  ],
+  "create": [
+    "common/models/user.js:635"
+  ],
+  "email": [
+    "common/models/user.js:729",
+    "common/models/user.js:733"
+  ],
+  "hex": [
+    "common/models/user.js:474"
+  ],
+  "host": [
+    "common/models/user.js:388",
+    "example/context/app.js:19",
+    "example/context/app.js:29",
+    "lib/application.js:550",
+    "lib/application.js:554"
+  ],
+  "login": [
+    "common/models/user.js:644"
+  ],
+  "logout": [
+    "common/models/user.js:666"
+  ],
+  "port": [
+    "common/models/user.js:389",
+    "lib/application.js:547",
+    "lib/application.js:566"
+  ],
+  "resetPassword": [
+    "common/models/user.js:698"
+  ],
+  "resetPasswordRequest": [
+    "common/models/user.js:563"
+  ],
+  "restApiRoot": [
+    "common/models/user.js:390"
+  ],
+  "user": [
+    "common/models/user.js:230"
+  ],
+  "username": [
+    "common/models/user.js:734"
+  ],
+  "b3ebc57e196a4e1f0076a284b85879db": [
+    "example/client-server/client.js:23"
+  ],
+  "CartItem": [
+    "example/client-server/models.js:8"
+  ],
+  "sum": [
+    "example/client-server/models.js:30"
+  ],
+  "e282e0e36e9f10a77c23a91e1fc70122": [
+    "example/colors/app.js:29",
+    "example/simple-data-source/app.js:32"
+  ],
+  "color": [
+    "example/colors/app.js:19",
+    "example/context/app.js:25",
+    "example/replication/app.js:9",
+    "example/simple-data-source/app.js:18"
+  ],
+  "db": [
+    "example/colors/app.js:21",
+    "example/context/app.js:33",
+    "example/mobile-models/app.js:17",
+    "example/replication/app.js:8",
+    "example/simple-data-source/app.js:16",
+    "lib/registry.js:360"
+  ],
+  "29c747de0ac234fd927a30f3e6a34160": [
+    "example/context/app.js:37"
+  ],
+  "f687e565ffae5b1a6171c78e59e3dd49": [
+    "example/context/app.js:29"
+  ],
+  "**": [
+    "example/context/app.js:26"
+  ],
+  "727d7a28a5b49fc4d9b57a591700f9a8": [
+    "example/mobile-models/app.js:44"
+  ],
+  "7d5e7ed0efaedf3f55f380caae0df8b8": [
+    "example/mobile-models/app.js:48"
+  ],
+  "rfeng": [
+    "example/mobile-models/app.js:48"
+  ],
+  " -": [
+    "example/replication/app.js:129"
+  ],
+  "color2": [
+    "example/replication/app.js:10"
+  ],
+  "  id %j": [
+    "lib/access-context.js:179"
+  ],
+  "  ttl %j": [
+    "lib/access-context.js:180"
+  ],
+  " accessType %s": [
+    "lib/access-context.js:298"
+  ],
+  " isAllowed() %s": [
+    "lib/access-context.js:301"
+  ],
+  " isWildcard() %s": [
+    "lib/access-context.js:300"
+  ],
+  " model %s": [
+    "lib/access-context.js:296"
+  ],
+  " permission %s": [
+    "lib/access-context.js:299"
+  ],
+  " property %s": [
+    "lib/access-context.js:297"
+  ],
+  "---AccessContext---": [
+    "lib/access-context.js:163"
+  ],
+  "---AccessRequest---": [
+    "lib/access-context.js:295"
+  ],
+  "accessToken:": [
+    "lib/access-context.js:178"
+  ],
+  "getUserId() %s": [
+    "lib/access-context.js:182"
+  ],
+  "isAuthenticated() %s": [
+    "lib/access-context.js:183"
+  ],
+  "method %s": [
+    "lib/access-context.js:175"
+  ],
+  "modelId %s": [
+    "lib/access-context.js:173"
+  ],
+  "modelName %s": [
+    "lib/access-context.js:172"
+  ],
+  "principal: %j": [
+    "lib/access-context.js:167"
+  ],
+  "principals:": [
+    "lib/access-context.js:165"
+  ],
+  "principals: %j": [
+    "lib/access-context.js:170"
+  ],
+  "04bd8af876f001ceaf443aad6a9002f9": [
+    "lib/application.js:328"
+  ],
+  "095afbf2f1f0e5be678f5dac5c54e717": [
+    "lib/application.js:383"
+  ],
+  "316e5b82c203cf3de31a449ee07d0650": [
+    "lib/application.js:491"
+  ],
+  "57b87ae0e65f6ab7a2e3e6cbdfca49a4": [
+    "lib/application.js:243"
+  ],
+  "7e287fc885d9fdcf42da3a12f38572c1": [
+    "lib/application.js:391"
+  ],
+  "9df34751f31f9fd16f291ca9b1acd21d": [
+    "lib/application.js:413"
+  ],
+  "dac512e197af51441fa0eca90431ee29": [
+    "lib/application.js:387"
+  ],
+  "Model": [
+    "lib/application.js:144",
+    "lib/application.js:441",
+    "lib/loopback.js:53",
+    "lib/model.js:107",
+    "lib/persisted-model.js:23"
+  ],
+  "aclErrorStatus": [
+    "lib/application.js:363"
+  ],
+  "attached": [
+    "lib/application.js:171",
+    "lib/model.js:232"
+  ],
+  "listening": [
+    "lib/application.js:546"
+  ],
+  "mounted": [
+    "lib/application.js:300",
+    "lib/model.js:821"
+  ],
+  "remoteMethodDisabled": [
+    "lib/application.js:165",
+    "lib/application.js:166"
+  ],
+  "remoting": [
+    "lib/application.js:470",
+    "server/middleware/rest.js:57"
+  ],
+  "url": [
+    "lib/application.js:559",
+    "lib/application.js:567"
+  ],
+  "created with options": [
+    "lib/connectors/base-connector.js:33"
+  ],
+  "3d63008ccfb2af1db2142e8cc2716ace": [
+    "lib/connectors/mail.js:171"
+  ],
+  "427ae75d34d469a94385e4f5ee80dee9": [
+    "lib/connectors/mail.js:162"
+  ],
+  "4a4f04a4e480fc5d4ee73b84d9a4b904": [
+    "lib/connectors/mail.js:155"
+  ],
+  "7671faeb3d0cfb658cb88a68878ab648": [
+    "lib/connectors/mail.js:160"
+  ],
+  "b8bedf95181d9f9b0e2904dfbc0a08bf": [
+    "lib/connectors/mail.js:163"
+  ],
+  "c7c413148c9d58201be31be156014eb9": [
+    "lib/connectors/mail.js:157"
+  ],
+  "f11a36a110d13d0dd7767c217e6e352d": [
+    "lib/connectors/mail.js:159"
+  ],
+  "f4c33c6450be6aa184f2afbbcf30a301": [
+    "lib/connectors/mail.js:161"
+  ],
+  "PersistedModel": [
+    "lib/loopback.js:56",
+    "lib/persisted-model.js:41"
+  ],
+  "memory": [
+    "lib/loopback.js:94"
+  ],
+  "remote": [
+    "lib/loopback.js:95"
+  ],
+  "0da38687fed24275c1547e815914a8e3": [
+    "lib/model.js:541"
+  ],
+  "22fe62fa8d595b72c62208beddaa2a56": [
+    "lib/model.js:557"
+  ],
+  "528325f3cbf1b0ab9a08447515daac9a": [
+    "lib/model.js:502"
+  ],
+  "543d19bad5e47ee1e9eb8af688e857b4": [
+    "lib/model.js:722"
+  ],
+  "598ff0255ffd1d1b71e8de55dbe2c034": [
+    "lib/model.js:607"
+  ],
+  "5a36cc6ba0cc27c754f6c5ed6015ea3c": [
+    "lib/model.js:592"
+  ],
+  "61e5deebaf44d68f4e6a508f30cc31a3": [
+    "lib/model.js:849"
+  ],
+  "651f0b3cbba001635152ec3d3d954d0a": [
+    "lib/model.js:527"
+  ],
+  "7bc7b301ad9c4fc873029d57fb9740fe": [
+    "lib/model.js:650"
+  ],
+  "7c837b88fd0e509bd3fc722d7ddf0711": [
+    "lib/model.js:524",
+    "lib/model.js:538",
+    "lib/model.js:552",
+    "lib/model.js:576",
+    "lib/model.js:589",
+    "lib/model.js:604"
+  ],
+  "830cb6c862f8f364e9064cea0026f701": [
+    "lib/model.js:483"
+  ],
+  "855ecd4a64885ba272d782435f72a4d4": [
+    "lib/model.js:468",
+    "lib/model.js:616",
+    "lib/persisted-model.js:90"
+  ],
+  "86254879d01a60826a851066987703f2": [
+    "lib/model.js:579"
+  ],
+  "8ae418c605b6a45f2651be9b1677c180": [
+    "lib/model.js:752",
+    "lib/model.js:757"
+  ],
+  "9442a303f4c26de8e29e39430f03d63a": [
+    "lib/model.js:175"
+  ],
+  "c0057a569ff9d3b509bac61a4b2f605d": [
+    "lib/model.js:667"
+  ],
+  "d6f43b266533b04d442bdb3955622592": [
+    "lib/model.js:493",
+    "lib/model.js:659"
+  ],
+  "da13d3cdf21330557254670dddd8c5c7": [
+    "lib/model.js:675"
+  ],
+  "ec296bb6191b3eb43570e250ab4ba919": [
+    "lib/model.js:182"
+  ],
+  "f66ae3cf379b2fce28575a3282defe1a": [
+    "lib/model.js:510"
+  ],
+  "ACL": [
+    "lib/model.js:284"
+  ],
+  "AccessToken": [
+    "lib/model.js:302",
+    "server/middleware/rest.js:68",
+    "server/middleware/token.js:102"
+  ],
+  "__count__": [
+    "lib/model.js:671"
+  ],
+  "__create__": [
+    "lib/model.js:489",
+    "lib/model.js:655"
+  ],
+  "__delete__": [
+    "lib/model.js:664"
+  ],
+  "__destroyById__": [
+    "lib/model.js:534"
+  ],
+  "__destroy__": [
+    "lib/model.js:507"
+  ],
+  "__exists__": [
+    "lib/model.js:600"
+  ],
+  "__findById__": [
+    "lib/model.js:520"
+  ],
+  "__get__": [
+    "lib/model.js:454",
+    "lib/model.js:479",
+    "lib/model.js:646"
+  ],
+  "__link__": [
+    "lib/model.js:572"
+  ],
+  "__unlink__": [
+    "lib/model.js:585"
+  ],
+  "__updateById__": [
+    "lib/model.js:547"
+  ],
+  "__update__": [
+    "lib/model.js:498"
+  ],
+  "fk": [
+    "lib/model.js:467"
+  ],
+  "03f79fa268fe199de2ce4345515431c1": [
+    "lib/persisted-model.js:1652"
+  ],
+  "0f1c71f74b040bfbe8d384a414e31f03": [
+    "lib/persisted-model.js:761"
+  ],
+  "15254dec061d023d6c030083a0cef50f": [
+    "lib/persisted-model.js:616"
+  ],
+  "16a11368d55b85a209fc6aea69ee5f7a": [
+    "lib/persisted-model.js:700"
+  ],
+  "1bc1d489ddf347af47af3d9b1fc7cc15": [
+    "lib/persisted-model.js:816"
+  ],
+  "1bc7d8283c9abda512692925c8d8e3c0": [
+    "lib/persisted-model.js:798"
+  ],
+  "1d5535b11bdcd47a32d584fc99cad07d": [
+    "lib/persisted-model.js:72"
+  ],
+  "2a7df74fe6e8462e617b79d5fbb536ea": [
+    "lib/persisted-model.js:823"
+  ],
+  "2a9684b3d5b3b67af74bac74eb1b0843": [
+    "lib/persisted-model.js:681"
+  ],
+  "2e406dbfed4c5eaeff9d3daaa366c69e": [
+    "lib/persisted-model.js:667"
+  ],
+  "2e50838caf0c927735eb15d12866bdd7": [
+    "lib/persisted-model.js:773"
+  ],
+  "4eb47c86b35a88ac2308a265f4c8e9a8": [
+    "lib/persisted-model.js:836"
+  ],
+  "51ea9b6245bb5e672b236d640ca3b048": [
+    "lib/persisted-model.js:846"
+  ],
+  "55ddedd4c501348f82cb89db02ec85c1": [
+    "lib/persisted-model.js:721"
+  ],
+  "5aaa76c72ae1689fd3cf62589784a4ba": [
+    "lib/persisted-model.js:751"
+  ],
+  "5efcd638779497cbb9d8f6ead8eb0629": [
+    "lib/persisted-model.js:858"
+  ],
+  "62e8b0a733417978bab22c8dacf5d7e6": [
+    "lib/persisted-model.js:1347"
+  ],
+  "6329e0ac1de3c250ebb1df5afd5a2a7b": [
+    "lib/persisted-model.js:725"
+  ],
+  "6bc376432cd9972cf991aad3de371e78": [
+    "lib/persisted-model.js:1215"
+  ],
+  "7f2fde7f0f860ead224b11ba8d75aa1c": [
+    "lib/persisted-model.js:805"
+  ],
+  "87f4ffec0db97baa672cbb2348afc5a1": [
+    "lib/persisted-model.js:864"
+  ],
+  "8bab6720ecc58ec6412358c858a53484": [
+    "lib/persisted-model.js:1355"
+  ],
+  "976df81f3da8bc72d90f5dbaf845f47f": [
+    "lib/persisted-model.js:835"
+  ],
+  "a98b6cc6547706b5c6bffde0ed5fd55c": [
+    "lib/persisted-model.js:690"
+  ],
+  "c46d4aba1f14809c16730faa46933495": [
+    "lib/persisted-model.js:673"
+  ],
+  "c65600640f206f585d300b4bcb699d95": [
+    "lib/persisted-model.js:787"
+  ],
+  "cf64c7afc74d3a8120abcd028f98c770": [
+    "lib/persisted-model.js:626"
+  ],
+  "d32cbcec1c7022d9a975699865ff6036": [
+    "lib/persisted-model.js:734"
+  ],
+  "dcb6261868ff0a7b928aa215b07d068c": [
+    "lib/persisted-model.js:873"
+  ],
+  "e43e320a435ec1fa07648c1da0d558a7": [
+    "lib/persisted-model.js:636"
+  ],
+  "e92aa25b6b864e3454b65a7c422bd114": [
+    "lib/persisted-model.js:1437"
+  ],
+  "ea63d226b6968e328bdf6876010786b5": [
+    "lib/persisted-model.js:1429"
+  ],
+  "f04c62976db4b2b6c8bf907087b53996": [
+    "lib/persisted-model.js:715"
+  ],
+  "f1d4ac54357cc0932f385d56814ba7e4": [
+    "lib/persisted-model.js:1283"
+  ],
+  "f37d94653793e33f4203e45b4a1cf106": [
+    "lib/persisted-model.js:743"
+  ],
+  "\t\t%j": [
+    "lib/persisted-model.js:1094",
+    "lib/persisted-model.js:1106",
+    "lib/persisted-model.js:1110"
+  ],
+  "\t\t%s change(s) applied": [
+    "lib/persisted-model.js:1168"
+  ],
+  "\t\t%s conflict(s) detected": [
+    "lib/persisted-model.js:1167"
+  ],
+  "\t\t%s for source model %s": [
+    "lib/persisted-model.js:1156"
+  ],
+  "\t\t%s for target model %s": [
+    "lib/persisted-model.js:1157"
+  ],
+  "\t\tnew checkpoints: { source: %j, target: %j }": [
+    "lib/persisted-model.js:1169"
+  ],
+  "\tActual revision:   %s": [
+    "lib/persisted-model.js:1316",
+    "lib/persisted-model.js:1403"
+  ],
+  "\tExpected revision: %s": [
+    "lib/persisted-model.js:1315",
+    "lib/persisted-model.js:1402"
+  ],
+  "\tbuilding a list of updates": [
+    "lib/persisted-model.js:1120"
+  ],
+  "\tcreated checkpoints": [
+    "lib/persisted-model.js:1155"
+  ],
+  "\tdiff conflicts": [
+    "lib/persisted-model.js:1105"
+  ],
+  "\tdiff deltas": [
+    "lib/persisted-model.js:1109"
+  ],
+  "\titeration #%s": [
+    "lib/persisted-model.js:1051"
+  ],
+  "\treplication finished": [
+    "lib/persisted-model.js:1166"
+  ],
+  "\tstarting bulk update": [
+    "lib/persisted-model.js:1129"
+  ],
+  "\tusing source changes": [
+    "lib/persisted-model.js:1093"
+  ],
+  "\twith filter %j": [
+    "lib/persisted-model.js:1030"
+  ],
+  " is tracking changes, ": [
+    "lib/persisted-model.js:1496"
+  ],
+  "%s.deleteAll modified unexpected number of instances: %j": [
+    "lib/persisted-model.js:1434"
+  ],
+  "%s.updateAll modified unexpected number of instances: %j": [
+    "lib/persisted-model.js:1352"
+  ],
+  "-change": [
+    "lib/persisted-model.js:1588"
+  ],
+  "Change": [
+    "lib/persisted-model.js:1584"
+  ],
+  "DeleteAll detected non-rectified change of %s %j": [
+    "lib/persisted-model.js:1418"
+  ],
+  "Detected non-rectified change of %s %j": [
+    "lib/persisted-model.js:1313",
+    "lib/persisted-model.js:1400"
+  ],
+  "Detected non-rectified new instance of %s %j": [
+    "lib/persisted-model.js:1381"
+  ],
+  "The model ": [
+    "lib/persisted-model.js:1496"
+  ],
+  "UpdateAll detected non-rectified change of %s %j": [
+    "lib/persisted-model.js:1336"
+  ],
+  "after delete": [
+    "lib/persisted-model.js:1502",
+    "lib/persisted-model.js:1702"
+  ],
+  "after save": [
+    "lib/persisted-model.js:1500",
+    "lib/persisted-model.js:1701"
+  ],
+  "conflicts": [
+    "lib/persisted-model.js:1179"
+  ],
+  "context instance:%j currentInstance:%j where:%j data %j": [
+    "lib/persisted-model.js:1529"
+  ],
+  "context instance:%j where:%j": [
+    "lib/persisted-model.js:1554"
+  ],
+  "delete": [
+    "lib/persisted-model.js:1702"
+  ],
+  "end": [
+    "lib/persisted-model.js:1685",
+    "lib/persisted-model.js:1693"
+  ],
+  "error": [
+    "lib/persisted-model.js:1684",
+    "lib/persisted-model.js:1690"
+  ],
+  "rectifyOnDelete %s -> ": [
+    "lib/persisted-model.js:1552"
+  ],
+  "rectifyOnSave %s -> ": [
+    "lib/persisted-model.js:1527"
+  ],
+  "replicating %s since %s to %s since %s": [
+    "lib/persisted-model.js:1024"
+  ],
+  "save": [
+    "lib/persisted-model.js:429",
+    "lib/persisted-model.js:1701"
+  ],
+  "update": [
+    "lib/persisted-model.js:430"
+  ],
+  "which requries a string id with GUID/UUID default value.": [
+    "lib/persisted-model.js:1497"
+  ],
+  "3438fab56cc7ab92dfd88f0497e523e0": [
+    "lib/registry.js:192"
+  ],
+  "554aa06e92e4722d48ce614618b90c2f": [
+    "lib/registry.js:118"
+  ],
+  "5a66ddbf867d065d0637c3dbc40736a0": [
+    "lib/registry.js:271"
+  ],
+  "734a7bebb65e10899935126ba63dd51f": [
+    "lib/registry.js:225"
+  ],
+  "779467f467862836e19f494a37d6ab77": [
+    "lib/registry.js:203"
+  ],
+  "7bc61dadccf417e30b02179665a7ba11": [
+    "lib/registry.js:244"
+  ],
+  "80a32e80cbed65eba2103201a7c94710": [
+    "lib/registry.js:308"
+  ],
+  "83cbdc2560ba9f09155ccfc63e08f1a1": [
+    "lib/registry.js:220"
+  ],
+  "b8729412816c4d96f33b7992db3298d7": [
+    "lib/registry.js:275"
+  ],
+  "dc568bee32deb0f6eaf63e73b20e8ceb": [
+    "lib/registry.js:257"
+  ],
+  "e7e4af32e979cddc901463fc7b362567": [
+    "lib/registry.js:374"
+  ],
+  "Attached model `%s` to dataSource `%s`": [
+    "lib/registry.js:236"
+  ],
+  "Model `%s` is not attached to any DataSource by configuration.": [
+    "lib/registry.js:239"
+  ],
+  "Model `%s` is not attached to any DataSource, possibly by a mistake.": [
+    "lib/registry.js:242"
+  ],
+  "cb6b65cca90372e428100fd21f8b2259": [
+    "lib/server-app.js:195"
+  ],
+  "ALL": [
+    "lib/server-app.js:84"
+  ],
+  "No matching layer is found for %s %s": [
+    "lib/server-app.js:207"
+  ],
+  "routes": [
+    "lib/server-app.js:150"
+  ],
+  "use %s %s %s": [
+    "lib/server-app.js:197"
+  ],
+  "loopback": [
+    "server/current-context.js:45"
+  ],
+  "http": [
+    "server/middleware/context.js:52"
+  ],
+  "1162caf5a6b2e991f443670d1ea46bde": [
+    "server/middleware/rest.js:45"
+  ],
+  "legacyExplorer": [
+    "server/middleware/rest.js:43"
+  ],
+  "rest": [
+    "server/middleware/rest.js:49",
+    "server/middleware/rest.js:74"
+  ],
+  "(/|$|\\?)": [
+    "server/middleware/token.js:28"
+  ],
+  "Set currentUserLiteral to 'me' as the value is not a string.": [
+    "server/middleware/token.js:83"
+  ],
+  "accessToken": [
+    "server/middleware/token.js:128"
+  ],
+  "req.url has been rewritten from %s to %s": [
+    "server/middleware/token.js:31"
+  ],
+  "Cannot ": [
+    "server/middleware/url-not-found.js:20"
+  ]
+}
