@@ -1652,7 +1652,7 @@ describe('relations - integration', function() {
           expect(res.body).to.be.an('object');
           expect(res.body.error).to.be.an('object');
           expect(res.body.error.name).to.equal('Error');
-          expect(res.statusCode).to.equal(500);
+          expect(res.body.error.statusCode).to.equal(500);
           expect(res.body.error.message).to.equal('This should not crash the app');
 
           done();

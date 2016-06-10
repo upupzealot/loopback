@@ -196,21 +196,6 @@ describe('loopback.rest', function() {
     }, done);
   });
 
-
-  it('should report 404 for disabled legacy route /routes', function(done) {
-    app.use(loopback.rest());
-    request(app).get('/routes')
-      .expect(404)
-      .end(done);
-  });
-
-  it('should report 404 for disabled legacy route /models', function(done) {
-    app.use(loopback.rest());
-    request(app).get('/models')
-      .expect(404)
-      .end(done);
-  });
-
   describe('context propagation', function() {
     var User;
 
