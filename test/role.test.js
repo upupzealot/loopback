@@ -197,6 +197,7 @@ describe('role model', function() {
     var Album = ds.createModel('Album', {
       name: String,
       userId: Number,
+      customerId: Number,
     }, {
       relations: {
         user: {
@@ -205,52 +206,65 @@ describe('role model', function() {
           foreignKey: 'userId',
         },
       },
+      relations: {
+        customer: {
+          type: 'belongsTo',
+          model: 'User',
+          foreignKey: 'customerId',
+        },
+      },
     });
 
     User.create({ name: 'Raymond', email: 'x@y.com', password: 'foobar' }, function(err, user) {
-      Role.isInRole('returnPromise', { principalType: ACL.USER, principalId: user.id },
-      function(err, yes) {
-        assert(!err && yes);
-      });
-
-      Role.isInRole(Role.AUTHENTICATED, { principalType: ACL.USER, principalId: user.id },
-      function(err, yes) {
-        assert(!err && yes);
-      });
-
-      Role.isInRole(Role.AUTHENTICATED, { principalType: ACL.USER, principalId: null },
-      function(err, yes) {
-        assert(!err && !yes);
-      });
-
-      Role.isInRole(Role.UNAUTHENTICATED, { principalType: ACL.USER, principalId: user.id },
-      function(err, yes) {
-        assert(!err && !yes);
-      });
-      Role.isInRole(Role.UNAUTHENTICATED, { principalType: ACL.USER, principalId: null },
-      function(err, yes) {
-        assert(!err && yes);
-      });
-
-      Role.isInRole(Role.EVERYONE, { principalType: ACL.USER, principalId: user.id },
-      function(err, yes) {
-        assert(!err && yes);
-      });
-
-      Role.isInRole(Role.EVERYONE, { principalType: ACL.USER, principalId: null },
-      function(err, yes) {
-        assert(!err && yes);
-      });
-
-      Album.create({ name: 'Album 1', userId: user.id }, function(err, album1) {
-        var role = { principalType: ACL.USER, principalId: user.id, model: Album, id: album1.id };
-        Role.isInRole(Role.OWNER, role, function(err, yes) {
+      User.create({ name: 'Eric', email: 'z@y.com', password: 'foobar' }, function(err, user2) {
+        Role.isInRole('returnPromise', { principalType: ACL.USER, principalId: user.id },
+        function(err, yes) {
           assert(!err && yes);
         });
-        Album.create({ name: 'Album 2' }, function(err, album2) {
-          role = { principalType: ACL.USER, principalId: user.id, model: Album, id: album2.id };
+
+        Role.isInRole(Role.AUTHENTICATED, { principalType: ACL.USER, principalId: user.id },
+        function(err, yes) {
+          assert(!err && yes);
+        });
+
+        Role.isInRole(Role.AUTHENTICATED, { principalType: ACL.USER, principalId: null },
+        function(err, yes) {
+          assert(!err && !yes);
+        });
+
+        Role.isInRole(Role.UNAUTHENTICATED, { principalType: ACL.USER, principalId: user.id },
+        function(err, yes) {
+          assert(!err && !yes);
+        });
+        Role.isInRole(Role.UNAUTHENTICATED, { principalType: ACL.USER, principalId: null },
+        function(err, yes) {
+          assert(!err && yes);
+        });
+
+        Role.isInRole(Role.EVERYONE, { principalType: ACL.USER, principalId: user.id },
+        function(err, yes) {
+          assert(!err && yes);
+        });
+
+        Role.isInRole(Role.EVERYONE, { principalType: ACL.USER, principalId: null },
+        function(err, yes) {
+          assert(!err && yes);
+        });
+
+        Album.create({ name: 'Album 1', userId: user.id, customerId: user2.id }, function(err, album1) {
+          var role = { principalType: ACL.USER, principalId: user.id, model: Album, id: album1.id };
           Role.isInRole(Role.OWNER, role, function(err, yes) {
-            assert(!err && !yes);
+            assert(!err && yes);
+          });
+          role = { principalType: ACL.USER, principalId: user2.id, model: Album, id: album1.id };
+          Role.isInRole(Role.OWNER, role, function(err, yes) {
+            assert(!err && yes);
+          });
+          Album.create({ name: 'Album 2' }, function(err, album2) {
+            role = { principalType: ACL.USER, principalId: user.id, model: Album, id: album2.id };
+            Role.isInRole(Role.OWNER, role, function(err, yes) {
+              assert(!err && !yes);
+            });
           });
         });
       });
